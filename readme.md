@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://brunoh-trilha-css1.netlify.app">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto"> 🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">🚀 Tecnologias</a>
 </p>
@@ -23,20 +23,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## Observações
+## Melhorias e ajustes
 
-- Inserida ```target="_blank"``` no footer
+- Inserida ```target="_blank"``` no footer;
+
+- Inserido ```:hover``` e ```:active``` no botão "Quero me inscrever";
 
 - Padrão de cores utilizadas:
 
 ```css
 * {
-  --Azul1: #33A8DB;
-  --Azul2: #1472B7;
-  --Azul3: #31A8DD;
-  --Azul4: #1572B7;
-  --Azul5: #3BA1CD;
-  --Azul6: #1572B7;
+  --Azul1: #33a8db;
+  --Azul2: #1472b7;
+  --Azul3: #31a8dd;
+  --Azul4: #1572b7;
+  --Azul5: #3ba1cd;
+  --Verde1: #088c19;
   --Preto1: #252525;
 }
 ```
+
+---

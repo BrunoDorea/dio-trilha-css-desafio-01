@@ -1,14 +1,19 @@
-@import url('./reset.css');
-
+/* Reset */
 * {
-  --Azul1: #33A8DB;
-  --Azul2: #1472B7;
-  --Azul3: #31A8DD;
-  --Azul4: #1572B7;
-  --Azul5: #3BA1CD;
-  --Azul6: #1572B7;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+
+  --Azul1: #33a8db;
+  --Azul2: #1472b7;
+  --Azul3: #31a8dd;
+  --Azul4: #1572b7;
+  --Azul5: #3ba1cd;
+  --Verde1: #088c19;
   --Preto1: #252525;
 }
+
+/* Estrutura Geral */
 
 body {
   background-color: black;
@@ -33,12 +38,13 @@ section {
 
 /* Header */
 .banner {
-  background-image: linear-gradient(#00000099, #31a8dd33, #00000099), url('../assets/images/banner.png');
+  background-image: linear-gradient(#00000099, #31a8dd33, #00000099),
+    url("../assets/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   padding-top: 60px;
-  border-bottom: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33a8db80;
 }
 
 .banner .banner-content {
@@ -88,9 +94,21 @@ section {
   text-transform: uppercase;
   letter-spacing: 4px;
   background-color: transparent;
-  border-image: linear-gradient(--Azul5, --Azul6);
+  border-color: var(--Azul3);
   border-image-slice: 10;
   border-radius: 30px;
+  transition: 0.5s;
+}
+
+.banner .banner-content button:hover {
+  color: var(--Azul4);
+  border-color: var(--Azul4);
+}
+
+
+.banner .banner-content button:active {
+  color: var(--Verde1);
+  border-color: var(--Verde1);
 }
 
 /* Main */
@@ -111,7 +129,7 @@ section {
   background-color: var(--Preto1);
   padding: 16px;
   border-radius: 100px;
-  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
 }
 
 #course-content .modules-list .module span {
@@ -121,10 +139,10 @@ section {
 #transform-world {
   height: 560px;
   background-size: cover;
-  background-image: url("../assets/images/woman-code.png");
+  background-image: url("../assets/woman-code.png");
   background-attachment: fixed;
-  border-top: 1px solid #33A8DB80;
-  border-bottom: 1px solid #33A8DB80;
+  border-top: 1px solid #33a8db80;
+  border-bottom: 1px solid #33a8db80;
   padding: 200px;
 }
 
@@ -150,7 +168,7 @@ footer {
   padding: 60px 0;
   text-align: center;
   background-image: linear-gradient(#32a8db00, #33a9db33);
-  border-top: 1px solid #33A8DB80;
+  border-top: 1px solid #33a8db80;
 }
 
 footer .dio-logo {
