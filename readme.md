@@ -8,7 +8,11 @@
   <a href="#-tecnologias">🚀 Tecnologias</a>
 </p>
 
-## 💻 Projetos
+<p align="center">
+  <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/9fc59800-279b-462d-9f12-92ea3bf5697e"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/9fc59800-279b-462d-9f12-92ea3bf5697e.svg" alt="wakatime"></a>
+</p>
+
+## 💻 Projeto
 
 Repositorio para o curso "Criando sua Primeira Landing Page com HTML e CSS" da DIO.
 
