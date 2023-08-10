@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://brunoh-trilha-css1.netlify.app">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://brunodorea.github.io/dio-trilha-css-desafio-01/">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto"> 🖥️ Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">🚀 Tecnologias</a>
 </p>
